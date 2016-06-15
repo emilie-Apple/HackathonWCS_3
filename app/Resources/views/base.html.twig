@@ -3,11 +3,21 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
+        <!-- Appel des bibliothèques Bootstrap -->
+
+        <!-- Appel des bibliothèques CSS -->
+
+
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
         {% block body %}{% endblock %}
+
+        <!-- Appel de jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+        <!-- Appel de scripts -->
         {% block javascripts %}{% endblock %}
     </body>
 </html>
