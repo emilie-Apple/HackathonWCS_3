@@ -3,10 +3,18 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
-        <!-- Appel des bibliothèques Bootstrap -->
+        <!-- Appel des bibliothèques Bootstrap & Glyphicons -->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"
+              rel="stylesheet">
+        <link href="{{ asset('bundles/hackathon/css/bootstrap.min.css') }}"
+              rel="stylesheet">
+        <link href="{{ asset('bundles/hackathon/css/bootstrap-theme.min.css') }}"
+              rel="stylesheet">
+
 
         <!-- Appel des bibliothèques CSS -->
-
+        <link href="{{ asset('bundles/hackathon/css/stylesheet.css') }}"
+              rel="stylesheet">
 
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
@@ -17,7 +25,12 @@
         <!-- Appel de jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
-        <!-- Appel de scripts -->
+        <!-- Appel de BootStrapJS -->
+        <script src="{{ asset('bundles/hackathon/js/bootstrap.min.js') }}"></script>
+
+        <!-- Appel de scripts autres -->
+
+
         {% block javascripts %}{% endblock %}
     </body>
 </html>
