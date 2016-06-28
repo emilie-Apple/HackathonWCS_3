@@ -5,7 +5,7 @@ Project Name : Onecho
 TODO
 Réaliser une application qui permet de préparer ses vacances entre amis en respectant son budget :
 
-REALISATION
+REALISATIONS
 Intégration d'une API maps pour organiser ses trajets, mise en place d'un champ de Recherche avec autocomplétion et localisation des activités à proximité. Proposition des activites en fonction du lieu Mise en place de Fosuser pour la connexion et la gestion du profil Disposition d'une galerie de photos souvenirs
 
 INSTRUCTIONS
